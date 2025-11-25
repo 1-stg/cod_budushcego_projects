@@ -1,0 +1,38 @@
+.container {
+    padding-top: 100px;
+    width: 300px;
+}
+
+.secret {
+    border-radius: 4px;
+    background-color: lightgray;
+    overflow: hidden;
+       
+    /* Начальная высота блока */
+    height: 230px;
+
+    cursor: pointer;
+
+    /* Как сделать переход плавным? */
+    transition: all 0.2s ease-in;
+
+}
+
+.hidden {
+    transition: all 0.2s ease-in;
+    height: 0px;
+}
+
+.contents {
+    padding: 10px;
+}
+
+.toggle.alert.alert-primary {
+    transition: all 0.2s ease;
+    cursor: pointer;
+}
+
+.toggle.alert.alert-primary:active {
+    transition: all 0.2s ease;
+    transform: scale(0.8);
+}

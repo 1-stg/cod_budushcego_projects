@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    box-shadow: 0 0 15px 5px rgba(113, 113, 113, 0.156);
+    padding: 20px;
+    margin: 20px;
+    border-radius: 20px;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+header li {
+    list-style: none;
+}
+
+header img {
+    transition: all 0.1s ease;
+    width: 30px;
+    cursor: pointer;
+}
+
+header img:hover {
+    transition: all 0.1s ease;
+    opacity: 0.5;
+}
+
+header img:active {
+    transform: scale(0.8, 0.8);
+}
+
+
+.car-cards__container {
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.car-cards__item {
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* flex-basis: 28%; */
+    color: black;
+    flex-grow: 1;
+    border-radius: 20px;
+    padding: 20px;
+    overflow: hidden;
+    background-color: rgb(215, 215, 215);
+}
+
+.car-cards__item:hover {
+    transition: all 0.3s ease-in-out;
+    background-color: rgb(47, 47, 47);
+    color: white;
+}
+
+.car-cards__item:active {
+    transition: all 0.1s ease-in-out;
+    opacity: 0.7;
+    transform: scale(0.8, 0.8);
+}
+
+.car-cards__item img {
+    border-radius: 20px;
+    width: 250px;
+}
+
+.car-cards__item__text {
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+footer {
+    margin: 20px 20px 0 20px;
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    box-shadow: 0 0 15px 5px rgba(113, 113, 113, 0.156);
+}
+
+.modal-favorite-background.on {
+    display: block;
+    /* visibility: collapse; */
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.2);
+    top: 0;
+}
+
+.modal-favorite-background {
+    display: none;
+    /* visibility: hidden; */
+}
+
+.modal-favorite-body {
+    position: fixed;
+    overflow-y: scroll;
+    padding: 10px;
+    /* padding-bottom: 100px; */
+    width: 30%;
+    height: 100%;
+    right: 0;
+    background-color: white;
+}
+
+.modal-favorite-body h2 {
+    padding-left: 20px;
+}
+
+@media (max-width: 1200px) {
+    .modal-favorite-body {
+        width: 100%;
+        left: 0;
+        top: 0;
+    }
+}
+
+.on {
+    background-color: rgb(49, 49, 49);
+    color: white;
+    box-shadow: 0 0 15px 5px rgba(255, 255, 255, 0.156);
+}

@@ -1,0 +1,143 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="assets/svg/beer.svg" type="image/svg+xml">
+    <title>Магазин пива - Главная</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html">PIWA</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                <img src="/assets/svg/profile.svg" alt="Профиль">
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <form class="d-flex" action="index.html" method="get">
+                        <input class="form-control me-2" name="pivo" type="search" placeholder="Пиво"
+                            aria-label="Search" minlength="2" maxlength="150" required>
+                        <button class="btn btn-outline-dark" type="submit">Найти</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner w-100" style="height: 70vh;">
+                <div class="carousel-item active h-100" data-bs-interval="10000">
+                    <img src="assets\png\vkusnyi-assortiment-amerikanskogo-piva.jpg" class="d-block w-100 h-100"
+                        alt="Картинка вкусного пива!" style="object-fit: cover;">
+                </div>
+                <div class="carousel-item h-100" data-bs-interval="2000">
+                    <img src="assets\png\vkusnyi-assortiment-amerikanskogo-piva.jpg" class="d-block w-100 h-100"
+                        alt="Картинка вкусного пива!" style="object-fit: cover;">
+                </div>
+                <div class="carousel-item h-100">
+                    <img src="assets\png\vkusnyi-assortiment-amerikanskogo-piva.jpg" class="d-block w-100 h-100"
+                        alt="Картинка вкусного пива!" style="object-fit: cover;">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Предыдущий</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Следующий</span>
+            </button>
+        </div>
+        <!-- <section class="m-5 d-flex justify-content-center gap-4 flex-wrap"> -->
+        <div class="m-5 d-flex justify-content-center gap-4 flex-wrap">
+            <div class="card" style="width: 18rem;">
+                <img src="assets/png/nabor-bavarskih-zakusok-na-stole.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title d-flex">Светлое</h5>
+                    <p class="card-text d-flex">Очень вкусное.</p>
+                    <a href="card_details.html?pivo=1" class="d-flex justify-content-center btn btn-dark">Подробнее</a>
+                </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+                <img src="assets/png/nabor-bavarskih-zakusok-na-stole.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title d-flex">Светлое</h5>
+                    <p class="card-text d-flex">Очень вкусное.</p>
+                    <a href="card_details.html?pivo=1" class="d-flex justify-content-center btn btn-dark">Подробнее</a>
+                </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+                <img src="assets/png/nabor-bavarskih-zakusok-na-stole.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title d-flex">Светлое</h5>
+                    <p class="card-text d-flex">Очень вкусное.</p>
+                    <a href="card_details.html?pivo=1" class="d-flex justify-content-center btn btn-dark">Подробнее</a>
+                </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+                <img src="assets/png/nabor-bavarskih-zakusok-na-stole.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title d-flex">Светлое</h5>
+                    <p class="card-text d-flex">Очень вкусное.</p>
+                    <a href="card_details.html?pivo=1" class="d-flex justify-content-center btn btn-dark">Подробнее</a>
+                </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+                <img src="assets/png/nabor-bavarskih-zakusok-na-stole.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title d-flex">Светлое</h5>
+                    <p class="card-text d-flex">Очень вкусное.</p>
+                    <a href="card_details.html?pivo=1" class="d-flex justify-content-center btn btn-dark">Подробнее</a>
+                </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+                <img src="assets/png/nabor-bavarskih-zakusok-na-stole.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title d-flex">Светлое</h5>
+                    <p class="card-text d-flex">Очень вкусное.</p>
+                    <a href="card_details.html?pivo=1" class="d-flex justify-content-center btn btn-dark">Подробнее</a>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        Пивной магазин 2025 &copy;
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

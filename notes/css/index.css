@@ -1,0 +1,41 @@
+.container {
+  max-width: 1000px;
+}
+
+.important {
+  background-color: rgba(224, 105, 240, 0.664);
+}
+
+.study {
+  background-color: rgb(140, 240, 140);
+}
+
+.note {
+  padding: 20px;
+  color: black;
+  flex-basis: 30%;
+  flex-grow: 1;
+  height: 100%;
+  background-color: white;
+  outline: 2px solid rgb(117, 117, 117);
+  border-radius: 20px;
+}
+
+.note__category {
+  font-size: 20px;
+  font-weight: 400;
+  color: rgb(117, 117, 117);
+}
+
+.note__date {
+  font-size: 20px;
+}
+
+#notes {
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap:15px;
+}

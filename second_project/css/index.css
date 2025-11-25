@@ -1,0 +1,30 @@
+body {
+    background-color: black;
+    color: white;
+}
+
+h1 {
+    background-color: #ffff00;
+}
+
+h2 {
+    background-color: #adff2f;
+}
+
+i {
+    background-color: #4169e1;
+}
+
+h3 {
+    color: rgb(238, 232, 170);
+}
+
+.custom-p {
+    width: 200px;
+    height: 100px;
+    display: inline-block;
+}
+
+.test {
+    background-color: red;
+}
