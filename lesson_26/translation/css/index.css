@@ -1,0 +1,21 @@
+.container {
+  max-width: 1000px;
+}
+
+.calculator-container {
+  width: 600px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+
+.card {
+  flex: 1;
+}
+
+.calculator-item {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}

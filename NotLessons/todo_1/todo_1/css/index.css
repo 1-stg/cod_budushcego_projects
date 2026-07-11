@@ -1,0 +1,31 @@
+body {
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.list-group-item {
+  cursor: pointer;
+  transition: opacity 0.2s ease-in-out,
+    background-color 0.1s ease-in-out;
+}
+
+.li-bg {
+  background-color: grey;
+  color: white;
+}
+
+.list-group-item:hover {
+  background-color: grey;
+  color: white;
+}
+
+.list-group-item:active {
+  opacity: 0.9;
+}

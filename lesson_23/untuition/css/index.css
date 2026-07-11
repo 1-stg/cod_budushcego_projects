@@ -1,0 +1,41 @@
+body {
+  margin: 0;
+  user-select: none;
+  font-family: "Arial";
+}
+
+h1 {
+  text-align: center;
+}
+
+.cards {
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  width: 400px;
+  gap: 20px;
+  /* pointer-events: none; */
+}
+
+.box {
+  width: 10vh;
+  height: 10vh;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  outline: 2px solid black;
+  border-radius: 15px;
+  font-size: 24px;
+  flex-grow: 1;
+  transition: background-color 0.2s ease-in-out,
+              border 0.2s ease-in-out;
+}
+
+.box-closed {
+  background-color: black;
+  outline: none;
+}

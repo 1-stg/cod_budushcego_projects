@@ -1,0 +1,38 @@
+body {
+  margin: 0;
+  user-select: none;
+}
+
+.container {
+  margin: 50px auto;
+  position: relative;
+  padding: 5px;
+  border-radius: 20px;
+  width: 300px;
+  height: 100px;
+  box-shadow: 0 0 15px 5px rgb(233, 233, 233);
+  border: 2px solid rgb(187, 187, 187);
+}
+
+.item {
+  width: 100px;
+  height: 100px;
+  transition: 500ms;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+.item_on {
+  transform: translateX(200px);
+}
+
+.item1 {
+  background-color: lightskyblue;
+}
+
+.item2 {
+  background-color: blueviolet;
+}
+.item3 {
+  background-color: lightseagreen;
+}

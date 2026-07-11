@@ -1,0 +1,21 @@
+.avatar {
+    padding: 40px;
+}
+
+.card {
+    position: relative;
+    cursor: pointer;
+}
+
+.heart {
+    display: block;
+    color: red;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    visibility: hidden;
+}
+
+.like {
+    visibility: visible;
+}

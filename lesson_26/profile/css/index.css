@@ -1,0 +1,13 @@
+.card-img-top {
+    max-width: 100px;
+    margin: auto;
+    padding: 20px;
+}
+
+.card {
+    max-width: 540px;
+}
+
+.coins img {
+    width: 30px;
+}

@@ -1,0 +1,44 @@
+body {
+  margin: 0;
+  user-select: none;
+  font-family: "Arial";
+}
+
+.gameover {
+  text-align: center;
+  border-radius: 15px;
+  margin: 0 20px;
+  padding: 20px;
+  width: 100%;
+  background-color: black;
+  color: white;
+}
+.container {
+  width: 500px;
+  margin: 50px auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.item1 {
+  width: 100px;
+  height: 100px;
+  transition: 500ms;
+  background-color: violet;
+  border-radius: 15px;
+}
+
+.item2 {
+  width: 100px;
+  height: 100px;
+  transition: 500ms;
+  background-color: lightskyblue;
+  border-radius: 15px;
+}
+
+.item_closed {
+  background-color: black;
+}
